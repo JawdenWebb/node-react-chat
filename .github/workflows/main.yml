@@ -2,8 +2,7 @@ name: ci
 
 on:
   push:
-    branches:
-      - "main"
+    branches: main
 
 jobs:
   build:
@@ -25,3 +24,5 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: false
+      - name: Trunk Check
+        uses: trunk-io/trunk-action@v1
