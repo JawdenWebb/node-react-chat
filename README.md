@@ -1,6 +1,7 @@
 [![ci](https://github.com/JawdenWebb/node-react-chat/actions/workflows/main.yml/badge.svg)](https://github.com/JawdenWebb/node-react-chat/actions/workflows/main.yml)
 [![DeepSource](https://app.deepsource.com/gh/JawdenWebb/node-react-chat.svg/?label=active+issues&token=yHIPgzUsKNXpB6ukaVavJ3V2)](https://app.deepsource.com/gh/JawdenWebb/node-react-chat/?ref=repository-badge)
 
+
 # node-react-chat
 
 Realtime Chat app using chatengine
