@@ -17,11 +17,11 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: ./backend
-          file: ./Dockerfile
+          file: ./backend/Dockerfile
           push: false
       - name: Build frontend
         uses: docker/build-push-action@v4
         with:
           context: ./frontend
-          file: ./Dockerfile
+          file: ./frontend/Dockerfile
           push: false
