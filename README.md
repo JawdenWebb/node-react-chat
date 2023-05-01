@@ -6,26 +6,26 @@ Realtime Chat app using chatengine
 
 To build backend container run the following
 
-<code>
+```shell
 
 cd backend
 
-docker build . -t \<image>:\<tag>
+docker build . -t <image>:<tag>
 
-docker run -d -p \<host_port> -it \<image>:\<tag>
+docker run -d -p <host_port> -it <image>:<tag>
 
-</code>
+```
 
 # Build frontend
 
 To build frontend container run the following
 
-<code>
+```shell
 
 cd frontend
 
-docker build . --build-arg url=\<url_of_backend> -t \<image>:\<tag>
+docker build . --build-arg url=<url_of_backend> -t <image>:<tag>
 
-docker run -d -p \<host_port> -it \<image>:\<tag>
+docker run -d -p <host_port> -it <image>:<tag>
 
-</code>
+```
