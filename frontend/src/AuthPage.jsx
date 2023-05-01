@@ -1,11 +1,11 @@
 import axios from "axios";
-// const dotenv = require("dotenv").config();
+const url = import.meta.env.VITE_back_url + "/authenticate";
 const AuthPage = (props) => {
   const onSubmit = (e) => {
     e.preventDefault();
     const { value } = e.target[0];
     axios
-      .post("http://localhost:3001/authenticate", {
+      .post(url, {
         username: value,
       })
       .then((r) => props.onAuth({ ...r.data, secret: value }))
